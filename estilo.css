@@ -1,0 +1,45 @@
+body{
+  background-image: url(vulcao-capa.jpg);
+  background-size: cover;
+  margin: 0;
+}
+footer{
+	text-align: center;
+
+	padding: 1em;
+}
+header{
+  box-shadow: 2px 10px 10px rgba(0,0,0, .25);
+  padding-top: 1em;
+  text-align: center;
+  color:white;
+  background-color: rgba(108, 106, 210, 0.4)
+}
+header ul{
+  padding-left: 0;
+  padding-top: 0.25em;
+  margin-bottom: 0;
+  background-color: #0066cc;
+}
+header li{
+  list-style: none;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  margin: 0 1em;
+}
+header li:hover{
+  border-bottom-color: currentColor;
+}
+header li{
+  text-decoration: none;
+  text-shadow: 1px 1px black;
+}
+div{
+  background-color: white;
+  opacity: 0.5;
+  margin: 50px;
+  background-attachment: scroll;
+}
+h1{
+  font-size: 50px;
+}
