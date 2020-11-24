@@ -1,11 +1,11 @@
 body{
   background-image: url(img/vulcao-capa.jpg);
+  background-attachment: fixed;
   background-size: cover;
   margin: 0;
 }
 footer{
 	text-align: center;
-
 	padding: 1em;
 }
 header{
@@ -13,20 +13,22 @@ header{
   padding-top: 1em;
   text-align: center;
   color:white;
-  background-color: rgba(108, 106, 210, 0.4)
- font-family: 'Bangers', cursive;
+  background-color: rgba(108, 106, 210, 0.4);
 }
 header ul{
   padding-left: 0;
   padding-top: 0.80em;
   margin-bottom: 0;
   background-image: linear-gradient(to right, #ff4d4d,#ffff99);
+  height: 50px;
+  opacity: 0.9;
 }
 header li{
   list-style: none;
   display: inline-block;
   border-bottom: 3px solid transparent;
   margin: 0 1em;
+  line-height: 40px;
 }
 header li:hover{
   border-bottom-color: currentColor;
@@ -48,7 +50,6 @@ header h1{
 a:link {
   color: white;
 }
-
 a:visited {
   color: #4747d1;
 }
@@ -56,9 +57,8 @@ a:hover {
   color: red;
 }
 a:active {
-  color: orange;}
-
-
+  color: orange;
+}
 #titulo{
   text-align: center;
   color: white;
@@ -66,19 +66,18 @@ a:active {
 #autores{
   border-radius: 50%;
   border: 1px solid #ffaa00;
-    float:left;
-    margin-right:  10px;
-    width: 100px;
+  float:left;
+  margin-right:  10px;
+  width: 100px;
 }
 .apresentação{
   display: flex;
   justify-content: space-around;
-   background-color: white;
+  background-color: white;
   opacity: 0.9;
-
 }
 .apresentação p{
-   background-color: white;
+  background-color: white;
   color: #333;
   border: 1px solid black;
   border-radius: 5px;
@@ -86,7 +85,6 @@ a:active {
   display: inline-block;
   margin-right: 1em;
 }
-
 .apresentação h1{
   text-align: center;
 }
@@ -100,9 +98,9 @@ a:active {
 .inicial p{
   padding-right: 15px;
   padding-left: 15px;
-  padding-bottom: 15px;}
-
-#voltar-topo {
+  padding-bottom: 15px;
+}
+#voltar-topo{
   background-color: white;
   border-radius: 20%;
   border: 2px solid silver;
@@ -118,6 +116,7 @@ a:active {
   position: sticky;
   bottom: 0;
   margin-right: 15px;
+  color: #4747d1;
 }
 section h1{
   text-align: center;
@@ -136,33 +135,33 @@ section h5{
   padding-left: 15px;
   padding-bottom: 15px;
 }
-table {
+table{
   margin-left: auto;
   margin-right: auto;
   border: 1px solid black;
   border-collapse: collapse;  
   background-color: #ffd9b3;
-  padding-top: 15px;}
-
-caption {
+  padding-top: 15px;
+}
+caption{
   background-color: rgba(255, 255, 255, .7);
-  font-size: 25px;} 
-
+  font-size: 25px;
+}
 tbody{
-   border: 1px solid black;
-   padding: 3px 10px 3px 10px; }  
-
+  border: 1px solid black;
+  padding: 3px 10px 3px 10px; 
+}  
 thead{
-  background-color: #ff8000;}
-
-td, th {
+  background-color: #ff8000;
+}
+td, th{
   padding: 3px 10px; 
   border: 1px solid black;     
 }
 .kilauea{
- float:left;
- text-align: center;
- width: 45%;
+  float:left;
+  text-align: center;
+  width: 45%;
   margin-right:13px;
   padding-bottom: 13px;
 }
