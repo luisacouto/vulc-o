@@ -4,10 +4,6 @@ body{
   background-size: cover;
   margin: 0;
 }
-footer{
-	text-align: center;
-	padding: 1em;
-}
 header{
   box-shadow: 2px 10px 10px rgba(0,0,0, .25);
   padding-top: 1em;
@@ -29,13 +25,11 @@ header li{
   border-bottom: 3px solid transparent;
   margin: 0 1em;
   line-height: 40px;
+  text-decoration: none;
+  text-shadow: 1px 1px black;
 }
 header li:hover{
   border-bottom-color: currentColor;
-}
-header li{
-  text-decoration: none;
-  text-shadow: 1px 1px black;
 }
 section{
   background-color: white;
@@ -47,16 +41,16 @@ header h1{
   font-family: 'Bangers', cursive;
   font-size: 70px;
 }
-a:link {
+a:link{
   color: white;
 }
-a:visited {
+a:visited{
   color: #4747d1;
 }
-a:hover {
+a:hover{
   color: red;
 }
-a:active {
+a:active{
   color: orange;
 }
 #titulo{
@@ -69,6 +63,11 @@ a:active {
   float:left;
   margin-right:  10px;
   width: 100px;
+}
+#autores:hover{
+  position: relative;
+  left: 10px;
+  bottom: 10px;
 }
 .apresentação{
   display: flex;
@@ -120,6 +119,10 @@ a:active {
 }
 section h1{
   text-align: center;
+  font-size: 30px;
+}
+section h2, h3{
+  font-size: 30px;
 }
 section h5{
   text-align: center;
@@ -156,14 +159,21 @@ thead{
 }
 td, th{
   padding: 3px 10px; 
-  border: 1px solid black;     
+  border: 1px solid black;  
+  font-size: 20px;   
+}
+.main{
+  display: flex;
+  flex-direction: space-around;
 }
 .kilauea{
   float:left;
   text-align: center;
   width: 45%;
-  margin-right:13px;
   padding-bottom: 13px;
+}
+.kilauea p{
+  padding: 15px;
 }
 .kilauea img{
   width: 500px;
@@ -171,16 +181,37 @@ td, th{
 .santahelena{
   float:right;
   text-align: center;
-  margin-right: 13px;
   width:45%;
-  padding-top: 13px;;
+  padding-top: 13px;
+}
+.santahelena p{
+  padding: 15px;
 }
 .santahelena img{
   width: 400px;
 }
 body::selection,
-body ::selection {
+body ::selection{
   color: red;
   background-color:#ffa64d;
 }
-
+iframe{
+	display: block;
+  margin: auto;
+}
+p{
+  font-size: 20px;
+}
+#estruturavulcao{
+  float: left;
+  height: 250px;
+}
+#tiposdeerupcao{
+  float: right;
+}
+#creditos{
+  font-size: 0px;
+}
+#esquerda{
+  float: left;
+}
