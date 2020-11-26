@@ -86,11 +86,15 @@ a:active{
 }
 .apresentação h1{
   text-align: center;
+  display: block;
 }
 .inicial h1{
   text-align: center;
 }
-
+.inicial h2, h3{
+  padding-left: 20px;
+  font-size: 25px;
+}
 .inicial img{
   text-align: center;
   width: 300px;
@@ -206,6 +210,8 @@ p{
 #estruturavulcao{
   float: left;
   height: 250px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 #tiposdeerupcao{
   float: right;
