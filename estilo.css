@@ -26,7 +26,6 @@ header li{
   margin: 0 1em;
   line-height: 40px;
   text-decoration: none;
-  text-shadow: 1px 1px black;
 }
 header li:hover{
   border-bottom-color: currentColor;
@@ -197,7 +196,7 @@ body ::selection{
   background-color:#ffa64d;
 }
 iframe{
-	display: block;
+  display: block;
   margin: auto;
 }
 p{
@@ -216,6 +215,7 @@ p{
   padding-left: 15px;
   padding-right: 15px;
   width: 900px;
+  text-align: center;
 }
 #esquerda{
   float: left;
@@ -226,4 +226,18 @@ p{
 }
 #creditos a:link{
   color: black;
+}
+.vulcao {
+  width: 40%;
+  max-width: 400px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  display: inline-block;
+}
+#imagens h4 {
+ background-color:rgba(255,0,0,0.3);
+ }
+ #imagens .vulcao img {
+  width: 100%;
+  max-width: 400px;
 }
