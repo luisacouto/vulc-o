@@ -236,8 +236,17 @@ p{
 }
 #imagens h4 {
  background-color:rgba(255,0,0,0.3);
+
  }
  #imagens .vulcao img {
   width: 100%;
   max-width: 400px;
+  vertical-align: text-bottom;
+  margin-left: 20px;
 }
+.vulcao h4{
+  margin-left: 15px;
+  justify-content: center;
+  padding: 5px;
+}
+
