@@ -211,12 +211,13 @@ p{
 }
 #estruturavulcao{
   float: left;
-  height: 250px;
-  padding-right: 20px;
-  padding-left: 20px;
+  height: 350px;
+  width: 500px;
 }
 #tiposdeerupcao{
   float: right;
+  height: 350px;
+  width: 480px;
 }
 #creditos{
   padding-left: 15px;
@@ -255,4 +256,25 @@ p{
   justify-content: center;
   padding: 5px;
 }
-
+#imgestrutura{
+  float: left;
+  width: 490px;
+  height: 363px;
+  padding: 13px;
+}
+#definicaovulcao{
+  float: right;
+  width: 600px;
+  padding-bottom: 13px;
+  padding-right: 13px;
+  padding-left: 13px;
+}
+#classificacao{
+  float: left;
+  width: 600px;
+  padding: 10px;
+}
+#imgtiposerupcao{
+  float: right;
+  padding: 13px; 
+}
