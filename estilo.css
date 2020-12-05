@@ -35,6 +35,7 @@ section{
   opacity: 0.9;
   margin: 50px;
   background-attachment: scroll;
+  padding-bottom: 20px;
 }
 header h1{
   font-family: 'Bangers', cursive;
@@ -88,6 +89,7 @@ a:active{
   display: block;
 }
 .inicial h1{
+  padding-top: 20px;
   text-align: center;
 }
 .inicial h2, h3{
@@ -143,7 +145,7 @@ table{
   margin-right: auto;
   border: 1px solid black;
   border-collapse: collapse;  
-  background-color: #ffd9b3;
+  background-color: #dfd1ec;
   padding-top: 15px;
 }
 caption{
@@ -151,16 +153,21 @@ caption{
   font-size: 25px;
 }
 tbody{
-  border: 1px solid black;
   padding: 3px 10px 3px 10px; 
 }  
 thead{
-  background-color: #ff8000;
+  background-color: #a090b8;
 }
 td, th{
   padding: 3px 10px; 
   border: 1px solid black;  
   font-size: 20px;   
+}
+th{
+  height: 50px;
+}
+td{
+  height: 40px;
 }
 .main{
   display: flex;
@@ -227,25 +234,24 @@ p{
 #creditos a:link{
   color: black;
 }
-.vulcao {
+.vulcao{
   width: 40%;
   max-width: 400px;
   margin-left: 2.5%;
   margin-right: 2.5%;
   display: inline-block;
 }
-#imagens h4 {
- background-color:rgba(255,0,0,0.3);
-
- }
- #imagens .vulcao img {
-  width: 100%;
-  max-width: 400px;
+#imagens h4{
+  background-color: #dfd1ec;
+}
+#imagens .vulcao img {
+  width: 400px;
   vertical-align: text-bottom;
   margin-left: 20px;
 }
 .vulcao h4{
-  margin-left: 15px;
+  width: 390px;
+  margin-left: 35px;
   justify-content: center;
   padding: 5px;
 }
